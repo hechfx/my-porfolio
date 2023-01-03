@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="<%= cssUrl %>">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7819319524958737" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="card">
+                <div class="card-buttons">
+                    <button class="card-close-button">&nbsp;</button>
+                    <button class="card-max-button">&nbsp;</button>
+                    <button class="card-min-button">&nbsp;</button>
+                </div>
+                <div class="card-text">
+                    <h1>Informations</h1>
+                    <img class="avatar" src="https://cdn.discordapp.com/emojis/851844129494532116.png">
+                    <p>
+                        💁 My name is André Victor<br>
+                        💻 I'm a programmer that do useless things<br>
+                        😳 17yo<br>
+                        ‼️ He/Him (Straight)
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-buttons">
+                    <button class="card-close-button">&nbsp;</button>
+                    <button class="card-max-button">&nbsp;</button>
+                    <button class="card-min-button">&nbsp;</button>
+                </div>
+                <div class="card-text">
+                    <h1>Languages</h1>
+                    <p>
+                        <img src="<%= svgUrl %>/kotlin.svg"/> Kotlin (JVM) <a class="rainbow rainbow_text_animated" href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Read More</a><br>
+                        <img src="<%= svgUrl %>/java.svg"/> Java (JVM) <a class="rainbow rainbow_text_animated" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Read More</a><br>
+                        <img src="<%= svgUrl %>/javascript.svg"/> JavaScript (Node) <a class="rainbow rainbow_text_animated" href="https://en.wikipedia.org/wiki/JavaScript">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-buttons">
+                    <button class="card-close-button">&nbsp;</button>
+                    <button class="card-max-button">&nbsp;</button>
+                    <button onclick="alert('eae meu vamo jogar um componente químico derivado do dióxido de carbono desprendido pela reação química que emite luz visível onde o resultado é uma mistura de gases incandescentes emitindo energia denominada chama, fogo ou fogaréu cujo o valor pra obtenção é abstendido de representação monetária sendo livre sua aquisição')" class="card-min-button">&nbsp;</button>
+                </div>
+                <div class="card-text">
+                    <h1>Social Media</h1>
+                    <p>
+                        <img src="<%= svgUrl %>/twitter.svg"/> Twitter: <a class="rainbow rainbow_text_animated" href="https://twitter.com/hechfx">https://twitter.com/hechfx</a><br>
+                        <img src="<%= svgUrl %>/github.svg"/> Github: <a class="rainbow rainbow_text_animated" href="https://github.com/hechfx">https://github.com/hechfx</a><br>
+                        <img src="<%= svgUrl %>/discord.svg"/> Discord: victor.#9336
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        twemoji.parse(document.body, {
+            size: "16x16",
+            ext: ".svg",
+            folder: "svg"
+        });
+    </script>
+</html>
